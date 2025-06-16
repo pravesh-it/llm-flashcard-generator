@@ -14,20 +14,20 @@ git clone https://github.com/pravesh-it/llm-flashcard-generator.git
 cd llm-flashcard-generator
 ```
 ### 2. Install dependencies
-- pip install -r requirements.txt
-
+```bash
+pip install -r requirements.txt
+```
 ### 3. Run the app
 - streamlit run app.py
 - python app.py
 
 ## 📂 Project Structure
-llm-flashcard-generator/
-│
-├── app.py                  # Main entry point
-├── flashcard_generator.py # Core logic to interact with the LLM
-├── utils.py                # Helper functions for chunking and formatting
-├── requirements.txt        # Python dependencies
-├── to_run_the_app.txt      # Run instructions
+llm-flashcard-generator/<br>
+├── app.py                  # Main entry point<br>
+├── flashcard_generator.py # Core logic to interact with the LLM<br>
+├── utils.py                # Helper functions for chunking and formatting<br>
+├── requirements.txt        # Python dependencies<br>
+├── to_run_the_app.txt      # Run instructions<br>
 └── README.md               # Project documentation
 
 ## 🧪 Example
