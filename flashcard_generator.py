@@ -1,7 +1,7 @@
 import openai
 
 # Your provided API key (keep it private in real deployments!)
-openai.api_key = "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"
+openai.api_key = "<Your_API_Key>"
 
 def generate_flashcards(text, subject=None):
     prompt = f"""
